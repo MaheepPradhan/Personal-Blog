@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metro Exodus Blog</title>
+    <link rel="icon" type="image/jpeg" href="favicon.jpg">
+    
+    <style>
+        /* Metro Exodus Theme */
+
+        /* Background image */
+        body {
+            background-image: url('https://wallpapercave.com/wp/wp5328726.jpg'); /* Add Metro Exodus themed image */
+            background-size: cover;
+            background-attachment: fixed;
+            color: #f1f1f1;
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.8);
+        }
+
+        /* Add foggy overlay */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: -1;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.9);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+
+        header h1 {
+            font-size: 3em;
+            color: #ffcc00; /* Industrial yellow tone */
+            text-transform: uppercase;
+            font-weight: bold;
+            letter-spacing: 3px;
+            transition: color 0.3s ease;
+        }
+
+        header h1:hover {
+            color: #d95f0b; /* Rusty orange */
+        }
+
+        header p {
+            font-style: italic;
+            color: #ddd;
+        }
+
+        /* Navigation */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffcc00;
+            font-weight: bold;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #d95f0b;
+        }
+
+        /* Main content area */
+        main {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #444;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
+        }
+
+        article h2 {
+            color: #ffcc00;
+            border-bottom: 2px solid #d95f0b;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        article p {
+            line-height: 1.6;
+        }
+
+        /* Embedded YouTube video */
+        iframe {
+            width: 100%;
+            border: 3px solid #ffcc00;
+            margin: 20px 0;
+            transition: transform 0.5s ease;
+        }
+
+        iframe:hover {
+            transform: scale(1.05);
+            border-color: #d95f0b;
+        }
+
+        /* Aside Section */
+        aside {
+            background: rgba(0, 0, 0, 0.85);
+            padding: 20px;
+            border-left: 5px solid #d95f0b;
+            margin-top: 20px;
+        }
+
+        aside h3 {
+            color: #ffcc00;
+        }
+
+        aside ul li {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+
+        /* Table Styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            color: #f1f1f1;
+        }
+
+        table th, table td {
+            border: 1px solid #555;
+            padding: 10px;
+            text-align: left;
+        }
+
+        table th {
+            background-color: #333;
+        }
+
+        table td {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        /* Button Transitions */
+        input[type="submit"] {
+            background-color: #ffcc00;
+            border: none;
+            color: black;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #d95f0b;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: #ffcc00;
+            border-top: 1px solid #444;
+        }
+
+        footer p a {
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        footer p a:hover {
+            color: #d95f0b;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>My Personal Blog</h1>
+        <p>Survive the journey through post-apocalyptic thoughts</p>
+        <hr>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="mailto:maheeppradhan12@gmail.com">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section>
+            <article>
+                <h2>My First Blog Post</h2>
+                <p><em><small>Posted on August 31, 2024 by Maheep Pradhan</small></em></p>
+                <p>Welcome to my first blog post! I'm excited to share my thoughts about surviving in a world like Metro Exodus.</p>
+                <table>
+                    <tr>
+                        <th>Category</th>
+                        <th>Posts</th>
+                    </tr>
+                    <tr>
+                        <td>Technology</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>Lifestyle</td>
+                        <td>3</td>
+                    </tr>
+                </table>
+            </article>
+
+            <article>
+                <h2>World of Gaming</h2>
+                <p><em><small>Posted on September 1, 2024 by Maheep Pradhan</small></em></p>
+                <p>Gaming has always been a passion of mine, and recently, I've been completely immersed in <strong>Metro Exodus</strong>. If you’re a fan of post-apocalyptic adventures, this game is a must-play!</p>
+                <p>Learn more: <a href="https://www.metrothegame.com/en-gb/" target="_blank">Metro Exodus Official Website</a></p>
+
+                <!-- Embedded YouTube Video -->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/uNwI-KAVT0o?si=J-XtX2Zz8tz8klLz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </article>
+        </section>
+
+        <!-- Sidebar -->
+        <aside>
+            <h3>Categories</h3>
+            <ul>
+                <li>Technology</li>
+                <li>Lifestyle</li>
+                <li>Gaming</li>
+                <li>Animation</li>
+            </ul>
+
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">My First Blog Post</a></li>
+                <li><a href="#">World of Gaming</a></li>
+            </ul>
+
+            <h3>Subscribe</h3>
+            <form action="#">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <input type="submit" value="Subscribe">
+            </form>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Metro Exodus Blog</p>
+        <p>Follow me on <a href="https://x.com/Maheep_Pradhan">X</a>, <a href="https://www.linkedin.com/in/maheep-pradhan-40058324a">LinkedIn</a></p>
+        <p>Contact: <a href="mailto:maheeppradhan12@gmail.com">maheeppradhan12@gmail.com</a></p>
+    </footer>
+</body>
+</html>
